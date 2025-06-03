@@ -1,50 +1,62 @@
-# Spindle MVP - Web-Based Layout Builder
+# 🧵 Spindle MVP – Web-Based Layout Builder
 
-A revolutionary layout builder with syntax called **Threads**.
+**Spindle** is a blazing-fast, web-based layout builder that lets you create responsive components and pages using a lightweight, Pug-inspired syntax called **Threads**. With a real-time editor and instant preview, Spindle drastically speeds up prototyping and UI development.
 
-## Quick Start
+---
+
+## 🚀 Quick Start
 
 ```bash
 # Make scripts executable
 cd setup/
 chmod +x setup.sh scaffold.sh
 
-# Run setup (installs dependencies)
+# Run setup to install dependencies
 ./setup/setup.sh
 
-# Start development server
+# Start the development server
 npm run dev
 ```
 
-## Project Structure
+---
+
+## 🗂️ Project Structure
 
 ```
 /src
-  /components    # React components
-  /parser        # Threads DSL parser (future)
-  /renderer      # Layout renderer (future) 
-  /storage       # Local storage utilities (future)
-  /export        # Export functionality (future)
-  App.jsx        # Main application
-  main.jsx       # React entry point
-  index.css      # Global styles
+  /components    → React UI components
+  /parser        → Threads DSL parser (coming soon)
+  /renderer      → Threads-to-HTML/JSX renderer
+  /storage       → Local storage and persistence
+  /export        → Export tools (HTML, JSX, etc.)
+  App.jsx        → App layout and core logic
+  main.jsx       → React entry point
+  index.css      → Global styles (Tailwind)
 ```
 
-## Core Features
+---
 
-- **Loom Editor** - Monaco-based code editor
-- **Threads DSL** - Pug-inspired layout syntax  
-- **Warp Preview** - Real-time layout preview
-- **Fiber Library** - Reusable component library
-- **Bobbin Projects** - Project management
+## ✨ Core Features
 
-## Development
+| Feature                | Description                                               |
+| ---------------------- | --------------------------------------------------------- |
+| **🧶 Loom Editor**     | Live Monaco-based editor for writing Threads DSL          |
+| **🔤 Threads DSL**     | Minimal markup syntax inspired by Pug, designed for speed |
+| **🪞 Warp Preview**    | Real-time visual feedback as you write                    |
+| **📚 Fiber Library**   | Easily reuse and compose saved components                 |
+| **🧵 Bobbin Projects** | Create, manage, and organize layout projects              |
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
+---
 
-## Next Steps
+## 🧑‍💻 Development Commands
+
+* `npm run dev` – Start the dev server with hot reload
+* `npm run build` – Compile for production
+* `npm run preview` – Preview the production build
+
+---
+
+## 🔭 Roadmap / Next Steps
 
 1. Implement Threads DSL parser (In Progress...)
 2. Build layout renderer
@@ -52,4 +64,18 @@ npm run dev
 4. Create export functionality
 5. Add project management
 
-Built with React, Vite, Tailwind CSS, and Monaco Editor.
+
+---
+
+## 🛠 Built With
+
+* [React](https://reactjs.org/)
+* [Vite](https://vitejs.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Monaco Editor](https://microsoft.github.io/monaco-editor/)
+
+---
+
+## 📄 License
+
+MIT — open and free for use, modification, and commercial projects. See [`LICENSE`](./LICENSE).
