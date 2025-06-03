@@ -11,9 +11,6 @@ chmod +x setup.sh scaffold.sh
 # Run setup (installs dependencies)
 ./setup.sh
 
-# Run scaffold (creates project structure)  
-./scaffold.sh
-
 # Start development server
 npm run dev
 ```
@@ -48,7 +45,7 @@ npm run dev
 
 ## Next Steps
 
-1. Implement Threads DSL parser
+1. Implement Threads DSL parser (In Progress...)
 2. Build layout renderer
 3. Add component library
 4. Create export functionality
