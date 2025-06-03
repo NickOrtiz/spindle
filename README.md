@@ -2,6 +2,8 @@
 
 **Spindle** is a blazing-fast, web-based layout builder that lets you create responsive components and pages using a lightweight, Pug-inspired syntax called **Threads**. With a real-time editor and instant preview, Spindle drastically speeds up prototyping and UI development.
 
+![Spindle MVP Screenshot](./screenshot.png)
+
 ---
 
 ## 🚀 Quick Start
