@@ -6,10 +6,11 @@ A revolutionary layout builder with syntax called **Threads**.
 
 ```bash
 # Make scripts executable
+cd setup/
 chmod +x setup.sh scaffold.sh
 
 # Run setup (installs dependencies)
-./setup.sh
+./setup/setup.sh
 
 # Start development server
 npm run dev
